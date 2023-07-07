@@ -1,0 +1,355 @@
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 380px) and (max-width: 575px) {
+  /* navbar part css start */
+
+  .navbar-nav {
+    margin-top: 20px;
+  }
+
+  .navbar-nav .nav-link {
+    text-align: right;
+    margin: 10px 0;
+  }
+
+  /* navbar part css end */
+
+  /* banner part css start */
+
+  .banner {
+    padding: 210px 0;
+  }
+
+  .banner .bnr_content h4 {
+    font-size: 50px;
+  }
+
+  .banner .bnr_content a {
+    font-size: 12px;
+    padding: 10px 25px;
+  }
+
+  /* banner part css end */
+
+  /* about part css start */
+
+  .about {
+    padding: 50px 0;
+  }
+
+  .about .abt_txt h4 {
+    font-size: 28px;
+    padding-bottom: 15px;
+  }
+
+  .about .abt_txt p {
+    font-size: 13px;
+    line-height: 25px;
+    margin-bottom: 28px;
+  }
+
+  /* about part css end */
+
+  /* common head part css start */
+
+  .common_head {
+    margin-bottom: 30px;
+  }
+
+  .common_head h4 {
+    font-size: 35px;
+  }
+
+  /* common head part css end */
+
+  /* about part css start */
+
+  .service {
+    padding: 30px 0;
+  }
+
+  .ser_content {
+    padding: 45px 10px;
+  }
+
+  .ser_content .ser_text h4 {
+    padding: 0;
+  }
+
+  /* about part css end */
+
+  /* work part css start */
+
+  .work {
+    padding: 40px 0;
+  }
+
+  /* work part css end */
+
+  /* counter part css start */
+
+  .counter {
+    padding: 40px 0;
+    margin: 55px 0;
+  }
+
+  .cntr_content {
+    padding: 20px;
+  }
+
+  /* counter part css end */
+
+  /* blog part css start */
+
+  .blog {
+    padding: 50px 0;
+  }
+
+  .blg_content {
+    margin-bottom: 40px;
+  }
+
+  /* blog part css end */
+
+  /* bar part css start */
+
+  .bar {
+    margin-top: 40px;
+  }
+
+  .bar_content {
+    padding: 50px 0;
+  }
+
+  .bar_content h4 {
+    font-size: 18px;
+    margin-right: 20px;
+  }
+
+  .bar_content a {
+    font-size: 11px;
+    padding: 10px 25px;
+  }
+
+  /* bar part css end */
+
+  /* footer part css start */
+
+  .footer {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+
+  .ftr_content {
+    padding: 30px 45px;
+    text-align: center;
+  }
+
+  .line_child {
+    width: 300px;
+    height: 2px;
+    background: #393939;
+    margin: 40px 0;
+  }
+
+  .ftr_link {
+    padding: 0px 30px;
+  }
+
+  /* footer part css end */
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+
+  /* navbar part css start */
+
+  .navbar-nav .nav-link {
+    text-align: right;
+    margin: 12px 0;
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    font-size: 17px;
+  }
+
+  /* navbar part css end */
+
+  /* about part css start */
+  .about {
+    padding: 40px 0;
+  }
+
+  .about .abt_txt a {
+    font-size: 14px;
+  }
+
+  /* about part css end */
+
+  /* common head part css start */
+
+  .common_head {
+    margin-bottom: 20px;
+  }
+
+  /* common head part css end */
+
+  /* service part css start */
+
+  .service {
+    padding: 40px 0;
+  }
+
+  /* service part css end */
+
+  /* work part css start */
+
+  .work {
+    padding: 40px 0;
+  }
+
+  /* work part css end */
+
+  /* counter part css start */
+
+  .counter {
+    padding: 45px 0;
+    margin: 40px 0;
+  }
+
+  .cntr_content {
+    padding: 20px;
+  }
+
+  /* counter part css end */
+
+  /* blog part css start */
+
+  .blog {
+    padding: 40px 0;
+  }
+
+  .blg_content {
+    margin-bottom: 40px;
+    padding: 0 20px;
+  }
+
+  /* blog part css end */
+
+  /* bar part css start */
+
+  .bar {
+    margin-top: 40px;
+  }
+
+  .bar_content {
+    padding: 40px 0;
+  }
+
+  .bar_content h4 {
+    margin-right: 40px;
+  }
+
+  /* bar part css end */
+
+  /* footer part css start */
+
+  .ftr_content {
+    text-align: center;
+    padding: 30px 65px;
+  }
+
+  .line_child {
+    width: 325px;
+    height: 2px;
+    margin-bottom: 40px;
+  }
+
+  /* footer part css end */
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+  /* navbar part css start */
+
+  .navbar-nav .nav-link {
+    text-align: right;
+    margin: 12px 0;
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    font-size: 17px;
+  }
+
+  /* navbar part css end */
+
+  /* about part css start */
+
+  .about .abt_txt {
+    padding: 0px 5px;
+  }
+
+  .about .abt_txt h4 {
+    font-size: 30px;
+    padding-bottom: 0px;
+  }
+
+  .about .abt_txt p {
+    font-size: 13px;
+    line-height: 23px;
+    margin-bottom: 20px;
+  }
+
+  /* about part css end */
+
+  /* service part css start */
+
+  .ser_content {
+    text-align: center;
+    padding: 35px 10px;
+  }
+
+  .ser_content .ser_text h4 {
+    padding-top: 20px;
+  }
+
+  /* service part css end */
+
+  /* footer part css start */
+
+  .ftr_content {
+    padding: 50px 25px;
+  }
+
+  .ftr_link {
+    padding: 0;
+  }
+
+  /* footer part css end */
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  /* service part css start */
+  .ser_content {
+    padding: 50px 10px;
+  }
+
+  /* service part css end */
+
+  /* footer part css start */
+  .ftr_content {
+    padding: 50px 60px;
+  }
+
+  .ftr_link {
+    padding: 0px 55px;
+  }
+
+  /* footer part css end */
+
+}
